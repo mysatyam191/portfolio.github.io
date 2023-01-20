@@ -221,7 +221,7 @@ nav ul li a:hover::after{
     float: left;
     display: block;
     border-radius: 30px 0px 0px 30px;
-    background: linear-gradient(144deg, rgb(190, 22, 10) 0%, rgb(15, 144, 184) 49%);
+    background: linear-gradient(144deg, rgb(245, 245, 245) 0%, rgb(255, 255, 255) 49%);
     color: rgb(19, 14, 14);
 }
 .info-title{
@@ -243,7 +243,7 @@ nav ul li a:hover::after{
 .info-details li {
     margin-top: 25px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(8, 7, 7);
 }
 .info-details li i {
     background: #F44770;
@@ -252,7 +252,7 @@ nav ul li a:hover::after{
     margin-right: 5px;
 }
 .info-details li a {
-    color: #fff;
+    color: rgb(40, 173, 6);
     text-decoration: none;
 }
 .info-details li a:hover {
@@ -284,8 +284,8 @@ nav ul li a:hover::after{
     width:65%;
     float: right;
     padding:40px 25px 35px 25px;
-    border-radius: 0px 30px 30px 0px;
-    background: #ecf0f3;
+    height: 550px;
+    background: #ecb4ee;
 }
 .form-title{
     text-align: left;
@@ -318,23 +318,23 @@ nav ul li a:hover::after{
     float: left;
     padding: 0px 30px;
     margin: 14px 12px;
-    border-radius: 25px;
+    
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
 }
 .form-fields .form-group:last-child {
     width: 96%;
 }
 .submit-button{
-    width: 96%;
+    width: 50%;
     height: 60px;
     margin: 0px 12px;
-    border-radius: 30px;
+    border-radius: 80px;
     font-size: 20px;;
     font-weight: 700;
     outline: none;
     border:none;
     cursor: pointer;
-    color:rgb(204, 183, 183);
+    color:rgb(10, 8, 8);
     text-align: center;
     background: #b82ddb;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
@@ -355,10 +355,10 @@ nav ul li a:hover::after{
         float: none;  
     }
     .info-wrap{
-        border-radius: 30px 30px 0px 0px;
+        border-radius: 80px 800px 0px 0px;
     }
     .form-wrap{
-        border-radius: 0px 0px 30px 30px;
+        border-radius: 0px 0px 80px 80px;
     }
     .form-group{
         width: 100%;
