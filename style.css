@@ -336,7 +336,7 @@ nav ul li a:hover::after{
     cursor: pointer;
     color:rgb(10, 8, 8);
     text-align: center;
-    background: #b82ddb;
+    background: #e9cff0;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
 }
